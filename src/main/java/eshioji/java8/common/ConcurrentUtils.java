@@ -1,7 +1,4 @@
-package eshioji;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+package eshioji.java8.common;
 
 import java.util.concurrent.*;
 

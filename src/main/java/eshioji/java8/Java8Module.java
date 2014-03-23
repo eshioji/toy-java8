@@ -1,4 +1,4 @@
-package eshioji;
+package eshioji.java8;
 
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.health.HealthCheckRegistry;
@@ -29,8 +29,8 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author Enno Shioji (eshioji@gmail.com)
  */
-public class Module implements com.google.inject.Module {
-    private static final Logger log = LoggerFactory.getLogger(Module.class);
+public class Java8Module implements com.google.inject.Module {
+    private static final Logger log = LoggerFactory.getLogger(Java8Module.class);
 
     @Override
     public void configure(Binder binder) {
